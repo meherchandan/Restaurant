@@ -10,7 +10,16 @@ $(document).ready(function () {
         "position":"fixed"
 
     });
+    $("header").hide();
+    $("div.container").hover(function(){
+        $("header").stop();
+        $("header").fadeIn("fast");
 
+
+    },function(){
+
+    $("header").fadeOut(5000);
+    });
 
 
     $("header").append("<ul></ul>");
