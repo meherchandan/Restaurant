@@ -97,7 +97,7 @@ $(document).ready(function () {
 
     });
 
-    $(".Menu").append("<div><p>Menu Items are Going to Change. Wait For new THRILL</p></div>");
+    $(".Menu").append("<div><p>Menu Items are Going to Change. <br>Wait For new THRILL</p></div>");
 
     $(".Menu>div").css({
         "height":"100px",
