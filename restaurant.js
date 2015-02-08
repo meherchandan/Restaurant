@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 
 
-     $("header").append("<ul></ul");
+     $("header").append("<ul></ul>");
      $("ul").append("<li>Home</li>");
     $("ul").append("<li>Menu</li>");
     $("ul").append("<li>New Added</li>");
