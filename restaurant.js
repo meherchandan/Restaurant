@@ -10,6 +10,8 @@ $(document).ready(function(){
 
     });
 
+
+
      $("header").append("<ul></ul");
      $("ul").append("<li>Home</li>");
     $("ul").append("<li>Menu</li>");
@@ -18,6 +20,33 @@ $(document).ready(function(){
     $("ul").append("<li>Cart</li>");
     $("ul").append("<li>Track</li>");
     $("ul").append("<li>Contact</li>");
+
+       $("div.container").append("<div class='main'></div>");
+    $("div.main").css({
+        "width":"100%",
+        "height":"1000px",
+        "text-align":"left",
+        "background-color":"rgba(208, 169, 65, 0.74)",
+        "background-image":"url(Images/main.jpg)",
+        "background-position":"top center",
+        "background-size": "cover",
+        "background-repeat":"no-repeat",
+        "color": "rgba(0, 0, 0, 0.79)",
+        "font-style":"italic",
+        "line-height":"25px"
+
+    });
+
+
+
+
+
+
+
+
+
+
+
     $("div.container").append("<div class='home'></div>");
     $("div.home").css({
         "width":"100%",
@@ -210,6 +239,7 @@ $(document).ready(function(){
         $("div.Cart").hide();
         $("div.Track").hide();
         $("div.Contact").hide();
+        $("div.main").hide();
      });
      $("li").eq(1).click(function(){
     $("div.home").hide();
@@ -219,6 +249,7 @@ $(document).ready(function(){
         $("div.Cart").hide();
         $("div.Track").hide();
         $("div.Contact").hide();
+          $("div.main").hide();
      });
      $("li").eq(2).click(function(){
     $("div.home").hide();
@@ -228,6 +259,7 @@ $(document).ready(function(){
         $("div.Cart").hide();
         $("div.Track").hide();
         $("div.Contact").hide();
+          $("div.main").hide();
      });
      $("li").eq(3).click(function(){
     $("div.home").hide();
@@ -237,6 +269,7 @@ $(document).ready(function(){
         $("div.Cart").hide();
         $("div.Track").hide();
         $("div.Contact").hide();
+          $("div.main").hide();
      });
      $("li").eq(4).click(function(){
     $("div.home").hide();
@@ -246,6 +279,7 @@ $(document).ready(function(){
         $("div.Cart").fadeIn();
         $("div.Track").hide();
         $("div.Contact").hide();
+          $("div.main").hide();
      });
      $("li").eq(5).click(function(){
     $("div.home").hide();
@@ -255,6 +289,7 @@ $(document).ready(function(){
         $("div.Cart").hide();
         $("div.Track").fadeIn();
         $("div.Contact").hide();
+          $("div.main").hide();
      });
      $("li").eq(6).click(function(){
     $("div.home").hide();
@@ -264,6 +299,7 @@ $(document).ready(function(){
         $("div.Cart").hide();
         $("div.Track").hide();
         $("div.Contact").fadeIn();
+          $("div.main").hide();
      });
 
 
