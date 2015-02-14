@@ -245,20 +245,24 @@ $(document).ready(function () {
     $("li").hover(function () {
         $(this).css({
 
-            "background-color": "rgb(216, 0, 0)"
+            "background-color": "rgb(216, 0, 0)",
+            "border-radius": "20px",
+
         });
         $(this).animate({
-            "border-radius": "+=20px",
-
+            "letterSpacing":"3px",
+            "fontSize":"+=1px"
         });
 
     }, function () {
         $(this).css({
             "color": "white",
-            "background-color": "rgba(227, 57, 57, 0.76)"
+            "background-color": "rgba(227, 57, 57, 0.76)",
+            "border-radius": "10px"
         });
         $(this).animate({
-            "border-radius": "10px"
+            "letterSpacing":"1px",
+            "fontSize":"-=1px"
 
         });
     });
